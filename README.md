@@ -1,46 +1,29 @@
-# brivya/.github Bootstrap
+# Brivya Organization Community Files
 
-**Target repository:** `brivya/.github`  
-**Visibility:** Public  
-**Default branch:** `main`
+This repository contains the public GitHub organization profile and default community health files for **Brivya**.
 
-## Purpose
+## Organization profile
 
-This repository provides the public Brivya organization profile and default community health files.
-
-## Required layout
+The public organization profile is defined in:
 
 ```text
-.github/
-├── profile/
-│   └── README.md
-├── SECURITY.md
-├── CONTRIBUTING.md
-└── CODE_OF_CONDUCT.md
+profile/README.md
 ```
 
-## Source mapping
+## Community defaults
 
-| Target | Prepared source |
-|---|---|
-| `profile/README.md` | `bootstrap/github/profile/README.md` |
-| `SECURITY.md` | `bootstrap/github/SECURITY.md` |
-| `CONTRIBUTING.md` | `bootstrap/github/CONTRIBUTING.md` |
-| `CODE_OF_CONDUCT.md` | `bootstrap/github/CODE_OF_CONDUCT.md` |
+This repository also provides default community files for Brivya public repositories:
 
-## Repository settings
+- `SECURITY.md`
+- `CONTRIBUTING.md`
+- `CODE_OF_CONDUCT.md`
 
-Recommended:
+Individual repositories may add more specific policies when needed.
 
-- Public
-- Default branch: `main`
-- No license required for this metadata/community repository
-- No Cortex `.agent` required unless this repository later develops an independent lifecycle
-- Prefer PR-based updates after initial bootstrap
+## About Brivya
 
-## Sequence
+Brivya is building **Business-to-Agent Infrastructure** for the Agentic Business Web.
 
-1. Owner manually creates `brivya/.github` as Public.
-2. ChatGPT/GitHub connector writes the prepared files.
-3. Verify organization profile renders correctly.
-4. Keep organization-level community files here as the default fallback for public repositories.
+> Make every business agent-accessible.
+
+Website: https://brivya.com
